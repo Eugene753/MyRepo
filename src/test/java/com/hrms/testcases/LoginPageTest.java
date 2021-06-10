@@ -42,5 +42,10 @@ public class LoginPageTest extends CommonMethods {
         softAssert.assertEquals(actualMessage,expectedMessage,"Incorrect message is displayed");
 }
 
+@Test
+    public void display(){
+        setUp();
+}
+
 
 }
